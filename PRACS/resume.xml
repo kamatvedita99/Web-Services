@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:noNamespaceSchemaLocation="resume.xsd">
+
+
+<personal-details>
+    <name>
+        <firstname>Vedita</firstname>
+        <middlename>Vinod</middlename>
+        <surname>Kamat</surname>
+    </name>
+
+    <address>
+        <hno>Bunglow-16</hno>
+        <landmark>Behind Sai Service</landmark>
+        <city>Porvorim</city>
+        <zip-code>403521</zip-code>
+        <state>Goa</state>
+        <country>India</country>
+    </address>
+
+    <phno>
+        <country-code>+91</country-code>
+        <area-code>832</area-code>
+        <no>7083247533</no>
+
+    </phno>
+
+    <profile>
+        <email>kamatvedita99@gmail.com</email>
+        <medium>@kamatvedita99</medium>
+        <github>@kamatvedita99</github>
+        <linkedin>Vedita Kamat</linkedin>
+
+    </profile>
+
+</personal-details>
+
+
+<education-details>
+    <school>
+        <name>Goa College of Engineering Farmagudi-Goa</name>
+        <duration>
+            <start-year>2017</start-year>
+            <end-year>Present</end-year>
+        </duration>
+        <specialisation>Computer Engineering</specialisation>
+        <summary>Studied different subjects like Data Structures,DBMS,Image Processing,Web Services and implemented projects to gain deeper insights</summary>
+
+    </school>
+
+    <school>
+        <name>Dempo Higher Secondary School of Science</name>
+        <duration>
+            <start-year>2015</start-year>
+            <end-year>2017</end-year>
+        </duration>
+        <specialisation>HSSC</specialisation>
+        <summary>Studied Physics, Chemistry,advanced Mathematics and Computer Science.</summary>
+
+    </school>
+
+    <school>
+        <name>Dr.K.B. Hedgewar High School Mala-Panaji Goa</name>
+        <duration>
+            <start-year>2002</start-year>
+            <end-year>2015</end-year>
+        </duration>
+        <specialisation>SSC</specialisation>
+        <summary>Studied core subjects  and theatre arts(3 years training).</summary>
+    </school>
+
+</education-details>
+
+<project-details>
+    <project>
+        <title>StackOverflow Automation Tool</title>
+        <project-summary>It automates the process of searching errors occurred during running of Python,C or C++ code file.It extracts the eerrortype and errormessage and opens relevant windows in browser.</project-summary>
+        <duration>
+        <start-date>March 2021</start-date>
+        <end-date>Present</end-date>
+        </duration>
+    </project>
+
+    <project>
+        <title>You Tube Transcript Summary Extension</title>
+        <project-summary>It is a chrome extension that takes in the Youtube transcript as input and summarizes it.</project-summary>
+        <duration>
+        <start-date>March 2021</start-date>
+        <end-date>Present</end-date>
+        </duration>
+    </project>
+
+    <project>
+        <title>Covid-19 Sentiment Analysis Dashboard </title>
+        <project-summary>Aimed to understand the emotions of people during Lockdown 1.0 to 4.0.Provides in-depth visualization of outcomes.</project-summary>
+        <duration>
+        <start-date>March 2021</start-date>
+        <end-date>Present</end-date>
+        </duration>
+    </project>
+</project-details>
+
+<interest-details>
+    <core-interests>
+        <interest>Web Development(Back-end)</interest>
+        <interest>Data Science</interest>
+        <interest>Competitive Coding</interest>
+        <interest>Personality Development</interest>
+    </core-interests>
+    <other-interests>
+        <interest>Content Writing(Blog)</interest>
+        <interest>Reading</interest>
+        <interest>theatre-arts</interest>
+        <interest>Cooking</interest>
+    </other-interests>
+</interest-details>
+
+
+
+
+
+
+
+
+
+</resume>

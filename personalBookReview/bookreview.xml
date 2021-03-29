@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:noNamespaceSchemaLocation="bookreview.xsd">
+    <book>
+        <title>The PCOD and Thyroid Book</title>
+        
+        <authors>
+            <author>Rujuta Diwekar</author>
+        </authors>
+
+        <publisher>Westland</publisher>
+
+        <category>Health and Fitness</category>
+        
+        <genres>
+            <genre>Non-fiction</genre>
+        </genres>
+        
+        <duration>
+            <start-date>
+                <day>5</day>
+                <month>March</month>
+                <year>2021</year>
+            </start-date>
+            <end-date>
+                <day>12</day>
+                <month> March</month>
+                <year>2021</year>
+            </end-date>
+        </duration>
+
+        <quotes>
+            <quote>Work on the knowns(body) to control the unknows(hormones).</quote>
+            <quote>Focus on gaining health rather than losing weight.</quote>
+            <quote>Feeling uncomfortable,irritable and cramping before/after periods is ABNORMAL.</quote>
+        </quotes>
+
+        <characters>
+            <character>None</character>
+        </characters>
+
+        <related-articles>
+            <article>
+                <source>Medium</source>
+                <link>https://kamatvedita99.medium.com/pcod-busting-the-myths-of-fitness-weight-loss-53567af36ad3</link>
+            </article>
+        </related-articles>
+
+
+        <summary>
+            <positive-points>
+                <positive-point>The book is a myth buster and clears many aspects related to nutrition , fitness.</positive-point>
+                <positive-point>She provides the scientific reasoning behind every concept, illustrative examples and mumbaiyya language that keeps you glued.</positive-point>
+            
+            </positive-points>
+
+            <negative-points>
+                <negative-point>The book is repeatitive in nature, many concepts are repeated throughout the book.</negative-point>
+            </negative-points>
+        </summary>
+
+        <rating>⭐⭐⭐⭐</rating>
+        <review>A must read for someone worried about PCOD/PCOS or Thyroid issue. This book teaches you the nutrition,sleep,exercise and relationship strategies that will change your perspective and redefine health in beautiful ways.</review>
+
+    </book>
+
+    <book>
+        <title>The 5 AM Club</title>
+
+        <authors>
+            <author>Robin Sharma</author>
+        </authors>
+
+        <publisher>Jaico Publication House</publisher>
+
+        <category>Personality Development</category>
+
+        <genres>
+            <genre>Non-fiction</genre>
+        </genres>
+        
+        <duration>
+            <start-date>
+                <day>13</day>
+                <month>March</month>
+                <year>2021</year>
+            </start-date>
+            <end-date>
+                <day>19</day>
+                <month>March</month>
+                <year>2021</year>
+            </end-date>
+        </duration>
+
+        <quotes>
+            <quote>Own your morning. Elevate your life!</quote>
+        </quotes>
+
+        <characters>
+            <character>The Spellbinder</character>
+            <character>Enterpreneur</character>
+            <character>Artist</character>
+            <character>Riley Stone</character>
+        </characters>
+
+        <related-articles>
+            <article>
+                <source>Medium</source>
+                <link>https://kamatvedita99.medium.com/</link>
+            </article>
+        </related-articles>
+        <summary>
+            <positive-points>
+                <positive-point>Teaches the importance of waking up early.</positive-point>
+                <positive-point>Introduces some crazy concepts like 20-20-20 rule, focusses of history-makers,healthset,heartset,soulset,mindset etc. </positive-point>
+            
+            </positive-points>
+
+            <negative-points>
+                <negative-point>A little lengthy to read.</negative-point>
+                
+            </negative-points>
+        </summary>
+        <rating>⭐⭐⭐⭐⭐</rating>
+        <review>Have you ever wanted to take charge of your life but felt demotivated ? Do you have the will power to make changes to your life that will ensure success and fulfillment? If you answered YES, grab this book and become a 5AC member!Even the sky is not the limit ! </review>
+
+    </book>
+</books>

@@ -1,0 +1,145 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name = "resume">
+<xs:complexType>
+    <xs:sequence>
+        <xs:element name = "personal-details">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name = "name">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name = "firstname" type = "xs:string"/>
+                                <xs:element name = "middlename" type = "xs:string"/>
+                                <xs:element name = "surname" type = "xs:string"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+
+                    
+
+                    <xs:element name = "address">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name = "hno" type = "xs:string"/>
+                                <xs:element name = "landmark" type = "xs:string"/>
+                                <xs:element name = "city" type = "xs:string"/>
+                                <xs:element name = "zip-code" type = "xs:string"/>
+                                <xs:element name = "state" type = "xs:string"/>
+                                <xs:element name = "country" type = "xs:string"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+
+                    <xs:element name = "phno">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name = "country-code" type = "xs:string"/>
+                                <xs:element name = "area-code" type = "xs:positiveInteger"/>
+                                <xs:element name = "no" type = "xs:positiveInteger"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+
+                    <xs:element name = "profile">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name = "email" type = "xs:string"/>
+                                <xs:element name = "medium" type = "xs:string"/>
+                                <xs:element name = "github" type = "xs:string"/>
+                                <xs:element name = "linkedin" type = "xs:string"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+
+                </xs:sequence>
+            </xs:complexType>
+        
+        </xs:element>
+
+        <xs:element name = "education-details">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name = "school" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name = "name" type = "xs:string"/>
+                                <xs:element name = "duration">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name = "start-year" type = "xs:string"/>
+                                            <xs:element name = "end-year" type = "xs:string"/>    
+                                        </xs:sequence>
+									</xs:complexType>
+                                    
+                                </xs:element>
+                                <xs:element name = "specialisation" type = "xs:string"/>
+                                <xs:element name = "summary" type = "xs:string"/>
+                                
+
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    
+                </xs:sequence>
+            </xs:complexType>
+        
+        </xs:element>
+
+        <xs:element name = "project-details">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name = "project" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name = "title" type = "xs:string"/>
+                                <xs:element name = "project-summary" type = "xs:string"/>
+                                <xs:element name = "duration">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name = "start-date" type = "xs:string"></xs:element>
+                                            <xs:element name = "end-date" type = "xs:string"></xs:element>    
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                
+                                
+                                
+
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    
+                </xs:sequence>
+            </xs:complexType>
+        
+        </xs:element>
+
+        <xs:element name = "interest-details">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name = "core-interests">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name = "interest" maxOccurs ="unbounded"/>
+                                
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name = "other-interests">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name = "interest" maxOccurs ="unbounded"/>
+                                
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                    
+                </xs:sequence>
+            </xs:complexType>
+        
+        </xs:element>
+    </xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
